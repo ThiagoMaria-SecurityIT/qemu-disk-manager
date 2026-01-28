@@ -39,6 +39,8 @@ python qemu_disk_manager.py
 1. Click **"Browse Folder"** to select where your virtual disks are (or will be)
 2. Use **"Scan Folder"** to automatically find existing `.qcow2` and `.raw` files
 
+<img width="880" height="106" alt="image" src="https://github.com/user-attachments/assets/909e7ced-da58-4327-a6ae-b78c587935db" />  
+
 ### Main Features
 
 #### 1. **Disk Creation**
@@ -53,6 +55,10 @@ Displays all virtual disks with columns:
 - **Format** - qcow2 or raw
 - **Path** - Full file path (may be empty if unavailable)
 
+Image below: **Get Disk Info** button showing the selected example virtual disk information  
+<img width="942" height="509" alt="image" src="https://github.com/user-attachments/assets/beb2a6aa-75a2-47f4-bdeb-19c19dcda916" />    
+
+
 #### 3. **Action Buttons**
 | Button | Purpose |
 |--------|---------|
@@ -60,7 +66,10 @@ Displays all virtual disks with columns:
 | **Copy Path to Clipboard** | Copy path for use in QEMU commands |
 | **Get Disk Info** | View detailed `qemu-img info` output |
 | **Export to CSV** | Save disk list to CSV file |
-| **Remove from List** | Remove entry from GUI (does not delete file) |
+| **Remove from List** | Remove entry from GUI (does not delete file) |  
+
+Image below: **CSV** file with the virtual disks list, after export with the **Export to CSV** button  
+<img width="852" height="290" alt="image" src="https://github.com/user-attachments/assets/cc9f4d76-e5b9-4fc4-89ac-e8f09fa844fc" />  
 
 ## 🔧 Key Features
 - **Smart Folder Scanning**: Recursively finds QEMU disk files
